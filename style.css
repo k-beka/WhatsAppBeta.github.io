@@ -9,11 +9,11 @@
   height: 51px;
   border: none;
   text-indent: 100%;
-  background: url(/images/arrow-up.png) no-repeat left top;
+  background: url(images/arrow-up.png) no-repeat left top;
 }
 
 #toTopHover {
-  background: url(/images/arrow-up.png) no-repeat left -51px;
+  background: url(images/arrow-up.png) no-repeat left -51px;
   width: 51px;
   height: 51px;
   display: block;
@@ -229,7 +229,7 @@ header {
   right: 0;
   width: 500px;
   height: 490px;
-  background-image: url(/images/header__messenger.png);
+  background-image: url(images/header__messenger.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -456,7 +456,7 @@ main {
 .main-bar__left {
   width: 50%;
   height: 880px;
-  background-image: url(/images/phones__messenger.png);
+  background-image: url(images/phones__messenger.png);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -806,7 +806,7 @@ details > summary {
 
 /* Добавляем собственный маркер для закрытого состояния */
 details summary::after {
-  content: url(/images/Vector.svg);
+  content: url(images/Vector.svg);
   position: absolute;
   right: 0;
   margin-right: 5.4spx;
@@ -814,7 +814,7 @@ details summary::after {
 
 /* Добавляем собственный маркер для открытого состояния */
 details[open] summary:after {
-  content: url(/images/chevron-down.svg);
+  content: url(images/chevron-down.svg);
   margin-right: 0;
 }
 
